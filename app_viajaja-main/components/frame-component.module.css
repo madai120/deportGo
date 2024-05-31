@@ -1,0 +1,236 @@
+.icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.brandname {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 65px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.slogan {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+}
+.brand {
+  width: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 248px;
+  max-width: 100%;
+}
+.listHeading,
+.listLinkItem,
+.listLinkItem1,
+.listLinkItem2 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 59px;
+}
+.listLinkItem,
+.listLinkItem1,
+.listLinkItem2 {
+  min-width: 39px;
+}
+.listLinkItem1,
+.listLinkItem2 {
+  min-width: 49px;
+}
+.listLinkItem2 {
+  min-width: 68px;
+}
+.list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 108px;
+}
+.listHeading1,
+.listLinkItem3,
+.listLinkItem4,
+.listLinkItem5 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 54px;
+}
+.listLinkItem3,
+.listLinkItem4,
+.listLinkItem5 {
+  min-width: 38px;
+}
+.listLinkItem4,
+.listLinkItem5 {
+  min-width: 29px;
+}
+.listLinkItem5 {
+  min-width: 68px;
+}
+.list1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 108px;
+}
+.listHeading2,
+.listLinkItem6,
+.listLinkItem7,
+.listLinkItem8 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 37px;
+}
+.listLinkItem6,
+.listLinkItem7,
+.listLinkItem8 {
+  min-width: 46px;
+}
+.listLinkItem7,
+.listLinkItem8 {
+  min-width: 62px;
+}
+.listLinkItem8 {
+  min-width: 51px;
+}
+.content,
+.links,
+.list2 {
+  display: flex;
+  align-items: flex-start;
+}
+.list2 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 108px;
+}
+.content,
+.links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.links {
+  width: 592px;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: 40px 38px;
+  min-width: 280px;
+}
+.content {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-15xs);
+}
+.divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+}
+.copyright {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 126px;
+}
+.copyrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.listLinkItem10,
+.listLinkItem9 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 38px;
+}
+.listLinkItem10 {
+  min-width: 46px;
+}
+.legals,
+.listLinkItemParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-sm);
+}
+.legals {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+}
+.bubbleContainer,
+.bubbleContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bubbleContainer {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslateblue);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-21xl);
+  gap: var(--gap-13xl);
+}
+.bubbleContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .links {
+    gap: var(--gap-lgi);
+  }
+  .bubbleContainer {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .legals {
+    flex-wrap: wrap;
+  }
+}

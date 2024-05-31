@@ -1,0 +1,137 @@
+.brandname {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.navLabel {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 105px;
+  white-space: nowrap;
+}
+.navLink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.navLabel1 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 107px;
+  white-space: nowrap;
+}
+.navLink1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.navLabel2 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 71px;
+}
+.navLink2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.cta {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 78px;
+}
+.button,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 7px;
+}
+.button {
+  height: 43px;
+  border-radius: 8px;
+  background-color: var(--color-orange);
+  padding: var(--padding-2xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: center;
+}
+.navLinks,
+.typebrandLeftAndNavOnRig {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.navLinks {
+  width: 1177px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  font-size: var(--font-size-xs);
+}
+.typebrandLeftAndNavOnRig {
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  display: none;
+  justify-content: space-between;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 0;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+.property1simpleCenteredSigParent,
+.travelCostSharingAppHome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property1simpleCenteredSigParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.travelCostSharingAppHome {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .navLinks {
+    display: none;
+  }
+}

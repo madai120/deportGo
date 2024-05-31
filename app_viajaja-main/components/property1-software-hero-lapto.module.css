@@ -1,0 +1,341 @@
+.descagar,
+.heading {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.heading {
+  align-self: stretch;
+  letter-spacing: -0.01em;
+  line-height: 108%;
+  font-weight: 900;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+}
+.descagar {
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild {
+  height: 78px;
+  width: 227px;
+  position: relative;
+  border-radius: 11.31px;
+  background-color: var(--color-darkslateblue);
+  display: none;
+}
+.getItOn,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 41.4px;
+  width: 38.4px;
+  min-height: 41px;
+}
+.getItOn {
+  display: inline-block;
+  min-width: 49px;
+}
+.getItOnWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs);
+}
+.googlePlay {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 113px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameGroup,
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  min-width: 73px;
+}
+.rectangleParent {
+  flex: 0.7357;
+  border-radius: 11.31px;
+  background-color: var(--color-darkslateblue);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-11xl) var(--padding-lg-6);
+  box-sizing: border-box;
+  gap: var(--gap-mini-7);
+  min-width: 148px;
+}
+.downloadOnThe {
+  position: absolute;
+  margin: 0 !important;
+  top: 21px;
+  right: -7.7px;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.frameItem {
+  flex: 1;
+}
+.downloadOnTheParent {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  min-width: 148px;
+}
+.descagarParent,
+.downloadOnTheParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 0;
+  gap: var(--gap-22xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.descagarParent {
+  width: 502.7px;
+  flex-direction: column;
+  gap: var(--gap-9xs-7);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-12xl);
+  font-family: var(--font-inter);
+}
+.ctaButton {
+  min-width: 140px;
+}
+.secondaryButton {
+  flex: 1;
+  min-width: 140px;
+}
+.buttonCombo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 16px 14px;
+  max-width: 680px;
+}
+.copyComponent,
+.copyContainer,
+.copyContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.copyComponent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-74xl);
+  gap: var(--gap-21xl);
+  min-width: 304px;
+  max-width: 540px;
+}
+.copyContainer,
+.copyContainerWrapper {
+  max-width: 100%;
+}
+.copyContainer {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  flex-direction: row;
+  padding: var(--padding-xl-5) var(--padding-11xl) var(--padding-xl-6);
+  min-width: 320px;
+}
+.copyContainerWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs-5) 0 0;
+  min-width: 335px;
+}
+.iphone13MockupLabel,
+.mainIcon,
+.shadowIcon {
+  height: 650.2px;
+  width: 345.2px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -126.2px;
+  left: -22px;
+  object-fit: cover;
+}
+.iphone13MockupLabel,
+.mainIcon {
+  height: 592.9px;
+  width: 293.1px;
+  bottom: -72.2px;
+  left: -18.7px;
+  z-index: 1;
+}
+.iphone13MockupLabel {
+  height: 566px;
+  width: 262.5px;
+  bottom: -57.8px;
+  left: -4.2px;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.iphone13MockupLabel1,
+.mainIcon1 {
+  height: 654px;
+  width: 324px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -72px;
+  left: 295px;
+  object-fit: cover;
+  z-index: 1;
+}
+.iphone13MockupLabel1 {
+  height: 624px;
+  width: 290px;
+  bottom: -56px;
+  left: 311px;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.device {
+  height: 545px;
+  width: 914.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 153%;
+}
+.mediaLayouts {
+  flex: 1;
+  padding: 0;
+  min-width: 320px;
+  max-width: 100%;
+  margin-left: -2px;
+}
+.mediaLayouts,
+.property1softwareHeroLapto,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.wrapper {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  max-width: 1200px;
+}
+.property1softwareHeroLapto {
+  align-self: stretch;
+  background-color: var(--color-lightsteelblue);
+  overflow: hidden;
+  padding: var(--padding-133xl) var(--padding-21xl) var(--padding-85xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1275px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .property1softwareHeroLapto {
+    padding-top: var(--padding-80xl);
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heading {
+    font-size: var(--font-size-39xl);
+    line-height: 62px;
+  }
+  .descagar {
+    font-size: var(--font-size-6xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+  .buttonCombo {
+    max-width: 100%;
+  }
+  .copyComponent {
+    height: auto;
+    gap: var(--gap-xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .copyContainer {
+    gap: var(--gap-base);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-24xl);
+    line-height: 47px;
+  }
+  .descagar {
+    font-size: var(--font-size-lgi);
+  }
+  .googlePlay {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  .frameItem {
+    flex-wrap: wrap;
+  }
+  .ctaButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .property1softwareHeroLapto {
+    padding-top: var(--padding-45xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}

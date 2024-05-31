@@ -1,0 +1,228 @@
+.imageLummiCategoryavat {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: calc(50% - 48px);
+  border-radius: var(--br-181xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.signUpHeading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+}
+.signUpHeading {
+  margin: 0;
+  font-size: inherit;
+  line-height: 47px;
+  font-weight: 900;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.subheading {
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-lato);
+}
+.signUpHeadingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.googleLogin {
+  align-self: stretch;
+  cursor: pointer;
+}
+.imageLummiCategoryavatParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-85xl) 0 0;
+  position: relative;
+  gap: var(--gap-base);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-playfair-display);
+}
+.line {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-orange);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lineWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 116px;
+}
+.line1,
+.or {
+  position: relative;
+}
+.or {
+  line-height: 160%;
+  display: inline-block;
+  min-width: 12px;
+}
+.line1 {
+  align-self: stretch;
+  height: 1px;
+  background-color: var(--color-orange);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent,
+.lineContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 116px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.inputForm {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslateblue);
+  max-width: 100%;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.button,
+.form,
+.input {
+  align-self: stretch;
+  max-width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-orange);
+}
+.byContinuingYou {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.copyComponent,
+.property1simpleCenteredSig,
+.signUpContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyComponent {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-darkslateblue);
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 480px;
+}
+.property1simpleCenteredSig,
+.signUpContainer {
+  flex-direction: row;
+  max-width: 100%;
+}
+.signUpContainer {
+  flex: 1;
+  padding: var(--padding-102xl-5) var(--padding-381xl);
+  box-sizing: border-box;
+  min-width: 322px;
+}
+.property1simpleCenteredSig {
+  align-self: stretch;
+  background-color: var(--color-lightsteelblue);
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1100px) {
+  .or {
+    width: 100%;
+    height: 12px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .signUpContainer {
+    padding-top: var(--padding-60xl);
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .signUpHeading {
+    font-size: var(--font-size-10xl);
+    line-height: 37px;
+  }
+  .copyComponent {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .signUpContainer {
+    padding-left: var(--padding-181xl);
+    padding-right: var(--padding-181xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUpHeading {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .signUpContainer {
+    padding: var(--padding-32xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
